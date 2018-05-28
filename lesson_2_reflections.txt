@@ -1,0 +1,14 @@
+Pergunta 1:
+
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Resposta: Uma pasta oculta .git é criada e armaneza os metadados do repositório criados durante um commit.
+
+
+Você também pode querer executar git status depois de criar o arquivo. Você deve ver que agora os dois arquivos estão listados como não rastreados.
+
+Pergunta 2:
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+A área de preparação do diretório de trabalho (staging area), se difere do repositório, por ser uma área intermediária de preparo, que permite a seleção de arquivos específicos, agrupando seu conteúdo quando for feito o commit. Na staging area você seleciona os arquivos que terão suas alterações lógicas, tornando desnecessária a cópia de todos os arquivos.	
