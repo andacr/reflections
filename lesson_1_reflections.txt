@@ -1,0 +1,35 @@
+Pergunta 1:
+
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+O comando diff compara as duas versões dos arquivos criados, a antiga e a nova. Ao compará-los, somente as partes que apresentam diferenças são listadas, indicando as linhas em que ocorrem as alterações. 
+
+Pergunta 2:
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+Ter um histórico de arquivos traz diversas vantagens para o programador. É possível acompanhar todo a evolução do código, recuperar uma versão funcional do código após mudanças ou recursos adicionais serem implementados, tornar o trabalho em equipe mais fácil, sendo possível identificar quem fez as altereções e como elas foram feitas. Ainda podemos pensar na aplicação do comando diff, podendo comparar as versões antigas com as novas, encontrando erros rapidamente.
+
+Pergunta 3:
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+Os prós de se escolher manualmente, são: a flexibilidade de se realizar o commit quando for mais coerente, ter salvas versões que façam mais sentido e que ajudem na comparação entre as versões antigas e atuais, além de ser possível adicionar descrições nos commits realizados. Os contras, são: a possibilidade de se esquecer de realizar o commit, ou acabar perdendo algum ponto relevante onde a comparação com versões mais antigas do código já não seja mais eficiente. 
+
+Pergunta 4:
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+O Git, tem como objetivo ser uma ferramenta que auxilia no controle de versões voltado a desenvolvedores de software, e por ter interligação entre os arquivos de seu repositório, é necessário que os commits sejam salvos para todos os arquivos do repositório. No Google Docs, que foca no armazenamento em nuvem, é muito difícil que haja essa interligação entre seus arquivos, então cada um é tratado separadamente.
+
+Pergunta 5:
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+Primeiro é necessário que haja um repositório com diferentes versões de controles. Se for necessário copiar um repositório, utilizamos o comando "git clone". Para utilizar o git log, que lista todas as commits realizadas e o git diff, que visualiza os históricos dos arquivos, é necessário navegar até a pasta em que se encontra o repositório. Ao utilizar o git log, se copia as ID's dos commits que se deseja comparar, e então utilizar o comando git diff, tendo como resultado a comparação das commits.
+
+Pergunta 6:
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+O controle de versão propicia a possibilidade de retornar a versões anteriores de seus commits e torna a procura por erros muito mais eficiente, caso o arquivo seja muito grande. É possível comparar as versões e ter informações que tornam o debug do código muito mais fácil.
